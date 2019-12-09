@@ -42,7 +42,7 @@ gulp.task('script', function(){
     ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('app/ls'))
+    .pipe(gulp.dest('app/js'))
 })
 
 gulp.task('html', function(){

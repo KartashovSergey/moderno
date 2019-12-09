@@ -253,8 +253,9 @@
             margin-left: 3px;
             margin-right: 3px;
             &.slick-active{
-                button{
+                button {
                     background-color: $green;
+                     
                 }
             }
             button{
@@ -265,7 +266,6 @@
                 width: 16px;
                 height: 16px;
                 cursor: pointer;
-        
             }
         }
     }
