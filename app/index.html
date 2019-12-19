@@ -13,95 +13,218 @@
 </head>
 
 <body>
-<div class="wrapper">
-    <div class="content">
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="header__top-inner">
-                    <div class="header__logo">
-                        <a href="#">
-                            <img src="images/logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="header__text">
-                        <a href="#">
-                            <span>Need help?</span>
-                        </a>
-                        Talk to an expert:
-                        <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
-                    </div>
-                    <div class="header__box">
-                        <a class="basket" href="#"></a>
-                        <a class="header__btn header__btn-login" href="#">Login</a>
-                        <a class="header__btn header__btn-register" href="#">Register</a>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__top-inner">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__text">
+                                <a href="#">
+                                    <span>Need help?</span>
+                                </a>
+                                Talk to an expert:
+                                <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
+                            </div>
+                            <div class="header__box">
+                                <div class="notificetion__box header__btn-login--off">
+                                    <a class="notificetion header__circle active icon-bell-o" href="#">
+                                        <span>8</span>
+                                    </a>
+                                    <div class="circle__menu notificetion__menu">
+                                        <a href="#" class="circle__item icon-bell-o icons-color">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="circle__item icon-bell-o">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="circle__item icon-bell-o">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="message__box header__btn-login--off">
+                                    <a class="message header__circle active icon-envelope-o" href="#">
+                                        <span>5</span>
+                                    </a>
+                                    <div class="circle__menu message__menu">
+                                        <a href="#" class="circle__item icon-envelope-o icons-color">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-name">Kazi Fahim</div>
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="circle__item icon-envelope-o">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-name">Kazi Fahim</div>
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="circle__item icon-mail-reply">
+                                            <img class="circle__images" src="images/content/message.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-name">Kazi Fahim</div>
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-date">01 Dec 2016</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="basket__box">
+                                    <a class="basket header__circle active icon-shopping-cart" href="#">
+                                        <span>8</span>
+                                    </a>
+                                    <div class="circle__menu">
+                                        <div class="circle__item">
+                                            <img class="circle__images" src="images/content/basket.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-name">Grand Ballet</div>
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-price">$59</div>
+                                            </div>
+                                        </div>
+                                        <div class="circle__item">
+                                            <img class="circle__images" src="images/content/basket.jpg" alt="">
+                                            <div class="circle__info">
+                                                <div class="circle__info-name">Grand Ballet</div>
+                                                <div class="circle__info-thema">WordPress</div>
+                                                <div class="circle__info-price">$59</div>
+                                            </div>
+                                        </div>
+                                        <div class="basket__summ">
+                                            <div class="basket__title">
+                                                <div class="basket__summ-total">Total</div>
+                                                <div class="basket__summ-price">$118</div>
+                                            </div>
+                                            <a class="basket__btn basket" href="#">Go to Cart</a>
+                                            <a class="basket__btn basket basket__btn-checkot" href="#">Go to Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user__box">
+                                    <a class="user header__btn-login--off" href="#">
+                                        <div class="user__inner">
+                                            <div class="user__images">
+                                                <img src="images/content/user-login.jpg" alt="">
+                                            </div>
+                                            <div class="user__info">
+                                                <div class="user__name">
+                                                    Mike Hussy
+                                                </div>
+                                                <div class="user__money">
+                                                    $171.00
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="user__menu">
+                                        <ul>
+                                            <li><a class="angle-right" href="#"> Profile Page</a class="angle-right-pos"></li>
+                                            <li><a class="angle-right" href="#">Portfolio</a></li>
+                                            <li><a class="angle-right" href="#">Account Setting</a></li>
+                                            <li><a class="angle-right" href="#">Downloads</a></li>
+                                            <li><a class="angle-right" href="#">Wishlist</a></li>
+                                            <li><a class="angle-right" href="#">Upload Item</a></li>
+                                            <li><a class="angle-right" href="#">Statement</a></li>
+                                            <li><a class="angle-right" href="#">Withdraws</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="header__btn header__btn-login" href="#">Login</a>
+                                <a class="header__btn header__btn-logout header__btn-login--off" href="#">Logout</a>
+                                <a class="header__btn header__btn-register header" href="#">Register</a>
+                            </div>
+                            <div class="header__btn-menu icon-user"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="header__menu">
-            <div class="container">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li>
-
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                WordPress
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Joomla
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                PSD
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Plugins
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Components
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Pages
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Help
-                            </a>
-                        </li>
-                    </ul>
-
-                </nav>
-
-            </div>
-        </div>
-
-    </header>
+                <div class="header__menu">
+                    <div class="container">
+                        <nav class="menu">
+                            <div class="menu__btn">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+            
+                            </div>
+                            <ul class="menu__list">
+                                <li>
+            
+                                    <a href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        WordPress
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Joomla
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        PSD
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Plugins
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Components
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Pages
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Help
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
     <section class="search" style="background-image: url(images/search-bg.jpg);">
         <div class="container">
             <div class="search__inner">
@@ -139,7 +262,7 @@
                 <div class="products__inner-boxs">
                     <div class="products__item mix category-component" data-order=" 1 ">
                         <a class="products__item-img" href="#"
-                            style="background-image: url(images/content/product-item.jpg);"></a>
+                            style="background-image: url(images/content/product-item.jpg);"></div>
                         <div class="products__item-content">
                             <div class="products__item-name">
                                 <a class="products__item-title" href="#">
@@ -155,7 +278,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -165,7 +289,7 @@
                     </div>
                     <div class="products__item mix category-plugin" data-order=" 2 ">
                         <a class="products__item-img" href="#"
-                            style="background-image: url(images/content/product-item.jpg);"></a>
+                            style="background-image: url(images/content/product-item.jpg);"></div>
                         <div class="products__item-content">
                             <div class="products__item-name">
                                 <a class="products__item-title" href="#">
@@ -181,7 +305,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -191,7 +316,7 @@
                     </div>
                     <div class="products__item mix category-wordpress" data-order=" 3 ">
                         <a class="products__item-img" href="#"
-                            style="background-image: url(images/content/product-item.jpg);"></a>
+                            style="background-image: url(images/content/product-item.jpg);"></div>
                         <div class="products__item-content">
                             <div class="products__item-name">
                                 <a class="products__item-title" href="#">
@@ -207,7 +332,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -233,7 +359,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -259,7 +386,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -285,7 +413,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -311,7 +440,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -337,7 +467,8 @@
                         </div>
                         <div class="products__item-info">
                             <a class="products__item-author">
-                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
+                                <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                </div>
                                 <span>Radiustheme</span>
                             </a>
                             <div class="products__item-star">
@@ -806,7 +937,8 @@
                         Easily Buy & Sell
                     </div>
                     <div class="advantages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has
+                        been the
                         industry's standaum.
                     </div>
                 </div>
@@ -838,7 +970,8 @@
                         Quality Products
                     </div>
                     <div class="advantages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has
+                        been the
                         industry's standaum.
                     </div>
                 </div>
@@ -871,7 +1004,8 @@
                         100% Secure Payment
                     </div>
                     <div class="advantages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has
+                        been the
                         industry's standaum.
                     </div>
                 </div>
@@ -896,19 +1030,22 @@
             </div>
             <div class="tutorial__inner">
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg.jpg);"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg.jpg);">
+                    </div>
                     <div class="tutorial__item-title title">
                         Web Design Tutorials
                     </div>
                 </div>
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg2.jpg);"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg2.jpg);">
+                    </div>
                     <div class="tutorial__item-title title">
                         WordPress Tutorials
                     </div>
                 </div>
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg3.jpg);"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial-bg3.jpg);">
+                    </div>
                     <div class="tutorial__item-title title">
                         HTML & CSS Tutorials
                     </div>
@@ -921,10 +1058,11 @@
         <div class="footer__content">
             <div class="container">
                 <div class="footer__inner">
-                    <div class="footer__col">
+                    <div class="footer__col footer__col-adress">
                         <div class="footer__col-title">About Company</div>
                         <div class="footer__col-text">
-                            Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit
+                            Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce
+                            sit
                             amet urna iat.Praesent vel
                             rutrum purus.
                         </div>
@@ -941,7 +1079,7 @@
                             <li><a href="#">Become an Author</a></li>
                             <li><a href="#">Community Meetups</a></li>
                             <li><a href="#">Become an Affiliate</a></li>
-                        </ul>                                                                           
+                        </ul>
                     </div>
                     <div class="footer__col footer__col-menu">
                         <div class="footer__col-title">Need Help?</div>
@@ -951,9 +1089,9 @@
                             <li><a href="#">Author Terms</a></li>
                             <li><a href="#">Foxtar Licenses</a></li>
                             <li><a href="#">Contact Us</a></li>
-                        </ul>                                                                                                                     
+                        </ul>
                     </div>
-                    <div class="footer__col">
+                    <div class="footer__col footer__col-social">
                         <div class="footer__col-title">Follow Us On</div>
                         <ul class="footer__social-link">
                             <li><a class="link-facebook" href="#"></a></li>
@@ -980,11 +1118,10 @@
                 <div class="footer__copy_text">
                     © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
                 </div>
-
             </div>
         </div>
     </footer>
-</div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
